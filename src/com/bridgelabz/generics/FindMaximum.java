@@ -5,9 +5,9 @@ public class FindMaximum {
 	 * UC1 -->> Find maximum in given three integer
 	 */
 	
-	public Float checkMaximum(Float X, Float Y, Float Z) {
+	public String checkMaximum(String X, String Y, String Z) {
 		
-		Float max = X;
+		String max = X;
 		if(Y.compareTo(max) > 0) {
 			max = Y;
 		}
